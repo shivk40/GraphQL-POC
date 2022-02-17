@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: graphql-poc
+
+server:
+  http2:
+    enabled: true
+
+
+

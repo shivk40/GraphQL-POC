@@ -1,0 +1,16 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  bookById(id: "book-1"){
+  id
+  name
+  pageCount
+  author {
+  firstName
+  lastName
+}
+}
+}
+
+###
